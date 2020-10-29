@@ -1,11 +1,7 @@
 
 <?php
-function hello() {
-return "hello";
-};
-    
-function testevalide($validation, $mess){
-    var_dump($validation);
+echo '<br>  testemess   <br>';
+
     
     if($_POST['identifiant'] === $validation[0])
     {
@@ -36,5 +32,5 @@ function testevalide($validation, $mess){
     else{     
             $mess[3]="age incorrect";          
             }
-    };
+    
 ?>
